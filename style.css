@@ -149,6 +149,10 @@ img{
     text-align: right;
   }
 
+  #steps .row .central {
+    text-align: left;
+  }
+
   #steps .row h3 {
     padding: 5px 0;
   }
@@ -161,9 +165,6 @@ img{
     float: left;
   }
 
-  #steps .row .central {
-    text-align: left;
-  }
   #steps .row .central img {
     float: right;
   }
@@ -191,13 +192,13 @@ img{
   #why .row .second,
   #why .row .third {
     margin: 0px;
-    height: 125px;
+    height: 135px;
     text-align: right;
   }
 
   #why .row .second {
     text-align: left;
-    height: 155px;
+    height: 165px;
   }
 
   #why .row h3 {
