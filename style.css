@@ -65,3 +65,132 @@ img{
 .clear {
   clear:both;
 }
+
+
+@media screen and (max-width: 419px) {
+  * {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .row {
+    max-width: 100%;
+    padding: 20px 10px 20px 10px;
+    margin: 0;
+  }
+
+  /* first container: LEZIONI */
+  #lezioni {
+    background: darkorange;
+  }
+
+  #lezioni .row h1,
+  #lezioni .row .left,
+  #lezioni .row .right,
+  #lezioni .row .clear {
+    display: block;
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  #lezioni .row h1 {
+    padding-bottom: 20px;
+  }
+
+  #lezioni .row .left,
+  #lezioni .row .left {
+    height: 110px;
+  }
+
+  #lezioni .row img {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    float: left;
+  }
+
+  #lezioni .row .right img {
+    float: right;
+  }
+
+  /* Second container: Steps */
+  #steps {
+    background: GoldenRod;
+  }
+
+  #steps .row h1,
+  #steps .row .left,
+  #steps .row .central,
+  #steps .row .right,
+  #steps .row .clear  {
+    display: block;
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  #steps .row h1 {
+    padding-bottom: 20px;
+  }
+
+  #steps .row .left,
+  #steps .row .central,
+  #steps .row .left {
+    height: 110px;
+  }
+
+  #steps .row img {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    float: left;
+  }
+
+  #steps .row .central img {
+    float: right;
+  }
+
+  /* third container: WHY */
+  #why {
+    background: silver;
+  }
+
+  #why .row h1,
+  #why .row .first,
+  #why .row .second,
+  #why .row .third, {
+    display: block;
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  #why .row h1 {
+    padding-bottom: 20px;
+  }
+
+  #why .row .first,
+  #why .row .second,
+  #why .row .third {
+    margin: 0px;
+    height: 150px;
+  }
+
+  #why .row img {
+    margin: 0;
+    padding: 0 10px 0 0;
+    width: 90px;
+    height: 90px;
+    float: left;
+  }
+
+  #why .row .second img {
+    float: right;
+    padding: 0 0 10px 0 0;
+  }
+}
