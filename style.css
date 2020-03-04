@@ -90,7 +90,6 @@ img{
   #lezioni .row .left,
   #lezioni .row .right,
   #lezioni .row .clear {
-    display: block;
     float: none;
     width: 100%;
     text-align: right;
@@ -132,7 +131,6 @@ img{
   #steps .row .central,
   #steps .row .right,
   #steps .row .clear  {
-    display: block;
     float: none;
     width: 100%;
     text-align: center;
@@ -178,7 +176,6 @@ img{
   #why .row .first,
   #why .row .second,
   #why .row .third, {
-    display: block;
     float: none;
     width: 100%;
     text-align: center;
